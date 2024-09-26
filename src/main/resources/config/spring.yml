@@ -42,7 +42,7 @@ management:
       exposure:
         include: '*'
   server:
-    port: ${actuator-port:8081}
+    port: ${actuator-port:8000}
 
 server:
   port: ${port:8080}
