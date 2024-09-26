@@ -1,0 +1,20 @@
+{
+  "kind": "team",
+  "users": [
+    "deema-k"
+  ],
+  "environments": {
+    "development": {
+      "users": []
+    },
+    "staging": {
+      "users": []
+    },
+    "uat": {
+      "users": []
+    },
+    "production": {
+      "users": []
+    }
+  }
+}
