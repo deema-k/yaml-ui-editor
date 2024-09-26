@@ -1,1 +1,11 @@
-
+{
+    "type": "object",
+    "title": "team",
+    "properties": {
+        "model": {
+            "type": "string"
+        },
+       
+       
+    }
+}
