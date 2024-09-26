@@ -31,7 +31,7 @@ git:
     # url is the remote Git repository URL. It is _required_ and there is _no default value_.
     # Replace the value below with the URL of the Git repository where your YAML
     # configuration files are stored.
-    url: https://github.com/google/yaml-ui-editor
+    url: https://github.com/deema-k/yaml-ui-editor.git
 
     # Name of the remote repository used when cloning, pulling and pushing, defaults to `origin`.
     #remote: origin
