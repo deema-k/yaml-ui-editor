@@ -33,6 +33,14 @@
                 2023
             ]
         },
+       "Month": {
+            "type": "string",
+            "enum": [
+                "Jan",
+                "Feb"
+          
+            ]
+        },
         "safety": {
             "type": "integer",
             "format": "rating",
