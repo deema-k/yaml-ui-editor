@@ -1,4 +1,9 @@
-team:
+users:
 - "test"
-- "testtt"
-- "te"
+- "testt"
+kind: "team"
+environments:
+  development: "{\"users\":[]}"
+  staging: "{\"users\":[]}"
+  uat: "{\"users\":[]}"
+  production: "{\"users\":[]}"
