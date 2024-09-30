@@ -1,8 +1,13 @@
 kind: "team"
 users:
 - "test"
+- "tesstt"
 environments:
-  development: "{\"users\":[]}"
-  staging: "{\"users\":[]}"
-  uat: "{\"users\":[]}"
-  production: "{\"users\":[]}"
+  development:
+    users: []
+  staging:
+    users: []
+  uat:
+    users: []
+  production:
+    users: []
