@@ -4,9 +4,11 @@ users:
 - "tesstt"
 environments:
   development:
-    users: []
+    users:
+    - "test"
   staging:
-    users: []
+    users:
+    - "mo"
   uat:
     users: []
   production:
