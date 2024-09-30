@@ -1,7 +1,7 @@
+kind: "team"
 users:
 - "test"
 - "testt"
-kind: "team"
 environments:
   development: "{\"users\":[]}"
   staging: "{\"users\":[]}"
