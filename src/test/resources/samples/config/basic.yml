@@ -1,3 +1,22 @@
 kind: "basic"
-team:
-- "test"
+skipArgoCdApplicationCreation: true
+teams:
+- "devops"
+quota:
+  cpu: ""
+  memory: "512Mi"
+  storage: "64Gi"
+  pods: 32
+  replicasets: 64
+  deployments: 16
+  statefulsets: 4
+  jobs: 16
+  cronjobs: 8
+  services: 16
+  configmaps: 50
+  secrets: 50
+allowedIngressDomains:
+- "test.com"
+argocdApps:
+- name: "quickstart-app-staging"
+  overlayPath: "overlays/staging"
