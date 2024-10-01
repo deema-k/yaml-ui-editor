@@ -1,6 +1,6 @@
 kind: "team"
 users:
-- "9999"
+- "9999-"
 environments:
   development:
     users: []
