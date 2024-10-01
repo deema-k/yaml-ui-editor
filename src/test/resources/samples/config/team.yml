@@ -2,6 +2,7 @@ kind: "team"
 users:
 - "test8"
 - "tesstt"
+- "988"
 environments:
   development:
     users: []
