@@ -1,8 +1,5 @@
 kind: "team"
-users:
-- "test8"
-- "tesstt"
-- "87"
+users: []
 environments:
   development:
     users: []
