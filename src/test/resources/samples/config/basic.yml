@@ -15,8 +15,9 @@ quota:
   services: 16
   configmaps: 50
   secrets: 50
+argocdApps:
+- name: ""
+  configRepoURL: ""
+  overlayPath: ""
 allowedIngressDomains:
 - "test.com"
-argocdApps:
-- name: "quickstart-app-staging"
-  overlayPath: "overlays/staging"
