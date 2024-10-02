@@ -16,8 +16,14 @@ quota:
   configmaps: 50
   secrets: 50
 argocdApps:
-- name: ""
-  configRepoURL: ""
-  overlayPath: ""
+- name: "quickstart-app-staging"
+  configRepoURL: "https://"
+  overlayPath: "overlays/staging"
 allowedIngressDomains:
 - "test.com"
+allowedInternalIngresses:
+- namespace: "SOME_NAMESPACE"
+  sourcePodLabels:
+    app: "SOME_APP_LABEL"
+  policyPodSelectorLabels:
+    app: "YOUR_APP_LABEL"
