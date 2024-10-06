@@ -1,0 +1,14 @@
+kind: "external"
+teams:
+- "devops"
+opensearch:
+  enabled: true
+  role: "full"
+prometheus:
+  enabled: true
+  serviceMonitors:
+  - environment: "production"
+    ips:
+    - "111.1.11.1"
+    - "222.2.22.2"
+    port: 9100
