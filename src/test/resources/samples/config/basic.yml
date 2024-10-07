@@ -1,9 +1,10 @@
 kind: "basic"
 skipArgoCdApplicationCreation: true
+cluster: "tn"
 teams:
 - "devops"
 quota:
-  cpu: " 1000m"
+  cpu: "57"
   memory: "512Mi"
   storage: "64Gi"
   pods: 32
