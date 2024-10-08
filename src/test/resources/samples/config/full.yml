@@ -8,5 +8,5 @@ base:
     name: "meaningful-workload-resource-name"
     podAnnotations: {}
     image:
-      repository: "docker.artifacts.test.cloud/template/sample-app"
+      repository: ""
       pullPolicy: "IfNotPresent"
