@@ -1,8 +1,7 @@
 kind: "full"
-skipArgoCdApplicationCreation: false
+skipArgoCdApplicationCreation: true
 teams:
 - "devops"
 base:
   workloads:
-    kind: "job"
     image: {}
