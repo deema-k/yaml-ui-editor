@@ -1,0 +1,12 @@
+kind: "full"
+skipArgoCdApplicationCreation: false
+teams:
+- "devops"
+base:
+  workloads:
+  - kind: "deployment"
+    name: "meaningful-workload-resource-name"
+    podAnnotations: {}
+    image:
+      repository: "docker.artifacts.test.cloud/template/sample-app"
+      pullPolicy: "IfNotPresent"
