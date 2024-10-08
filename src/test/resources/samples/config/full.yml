@@ -4,9 +4,5 @@ teams:
 - "devops"
 base:
   workloads:
-  - kind: "deployment"
-    name: "meaningful-workload-resource-name"
-    podAnnotations: {}
-    image:
-      repository: ""
-      pullPolicy: "IfNotPresent"
+    kind: "job"
+    image: {}
