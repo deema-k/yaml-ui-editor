@@ -4,5 +4,6 @@ teams:
 - "devops"
 base:
   workloads:
+    kind: "cronjob"
     image: {}
     autoscaler: {}
