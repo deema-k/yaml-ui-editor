@@ -33,16 +33,31 @@ base:
           command: []
         httpGet:
           port: 0
-      periodSeconds: 0
-    readinessProbe: null
-    livenessProbe: null
-    resources: null
-    env: null
-    envFrom: null
+    readinessProbe:
+      probe:
+        exec:
+          command: []
+        httpGet:
+          port: 0
+    livenessProbe:
+      probe:
+        exec:
+          command: []
+        httpGet:
+          port: 0
+    resources:
+      requests: {}
+      limits: {}
+    env: []
+    envFrom: []
     initContainers: null
-    command: null
-    args: null
-    volumeMounts: null
+    command: []
+    args: []
+    volumeMounts: []
     volumes: null
-    services: null
+    services:
+    - name: "http"
+      port: 80
+      targetPort: 8080
+      protocol: "TCP"
     ingress: null
