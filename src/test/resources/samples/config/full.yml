@@ -4,6 +4,45 @@ teams:
 - "devops"
 base:
   workloads:
-    kind: "cronjob"
+    podAnnotations: {}
+    hostAliases: []
+    securityContext:
+      runAsUser: 0
+      runAsGroup: 0
+      fsGroup: 0
     image: {}
-    autoscaler: {}
+    postStart:
+      exec:
+        command: []
+    autoscaler:
+      minReplicas: 0
+      maxReplicas: 0
+    ports: []
+    lifecycle:
+      postStart:
+        exec:
+          command: []
+      preStop:
+        exec:
+          command: []
+    strategy:
+      rollingUpdate: {}
+    startupProbe:
+      probe:
+        exec:
+          command: []
+        httpGet:
+          port: 0
+      periodSeconds: 0
+    readinessProbe: null
+    livenessProbe: null
+    resources: null
+    env: null
+    envFrom: null
+    initContainers: null
+    command: null
+    args: null
+    volumeMounts: null
+    volumes: null
+    services: null
+    ingress: null
