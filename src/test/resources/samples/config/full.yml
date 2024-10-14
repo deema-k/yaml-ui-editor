@@ -51,9 +51,10 @@ base:
     env: []
     envFrom:
     - configMapRef:
-        name: "test"
+        name: ""
         secretRef:
-          name: "test"
+          name: ""
+      secretRef: {}
     initContainers: null
     command: []
     args: []
