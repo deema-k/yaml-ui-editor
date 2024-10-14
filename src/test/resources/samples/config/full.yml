@@ -49,15 +49,32 @@ base:
       requests: {}
       limits: {}
     env: []
-    envFrom: []
+    envFrom:
+    - configMapRef:
+        name: "test"
+        secretRef:
+          name: "test"
     initContainers: null
     command: []
     args: []
     volumeMounts: []
     volumes: null
-    services:
-    - name: "http"
-      port: 80
-      targetPort: 8080
-      protocol: "TCP"
-    ingress: null
+    services: []
+    ingress: []
+  buckets:
+  - name: "meaningful-bucket-name"
+    accessKey: "access-key"
+  redis:
+  - name: "redis"
+    passwordProtected: false
+    resources:
+      requests:
+        cpu: "100m"
+        memory: "128Mi"
+      limits:
+        cpu: "100m"
+        memory: "128Mi"
+    storage: "300Mi"
+  serviceAccounts:
+  - name: "meaningful-service-account-name"
+    annotations: {}
