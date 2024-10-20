@@ -2,6 +2,7 @@ kind: "team"
 users:
 - "xyzozuxiiiii"
 - "test"
+- "myuser"
 environments:
   development:
     users: []
