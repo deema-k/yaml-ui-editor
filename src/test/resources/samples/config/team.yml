@@ -1,7 +1,6 @@
 kind: "team"
 users:
 - "xyzozuxiiiii"
-- "test.z"
 environments:
   development:
     users: []
